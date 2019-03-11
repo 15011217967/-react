@@ -1,6 +1,8 @@
-import {  combineReducers } from 'redux';
-import header from '../header/reducer.js';
+import { combineReducers } from 'redux';
+import titleStore from '../component/title/store/reducer';
+import navStore from '../component/nav/store/reducer';
 
 export default combineReducers({
-    header: header
+    titleStore:titleStore,
+    navStore:navStore
 });
